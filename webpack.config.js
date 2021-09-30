@@ -24,5 +24,6 @@ module.exports = {
   devtool: "cheep-module-eval-source-map",
   devServer: {
     contentBase: path.join(__dirname, "public"),
+    historyApiFallback: true,
   },
 };
